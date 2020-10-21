@@ -28,15 +28,49 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             />
+
         <Button
             android:id="@+id/btnRX03Operadores"
-            android:text="Operadores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Operadores" />
+
+        <Button
+            android:id="@+id/btnRX04TiposObservables"
+            android:text="Observables"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             />
         <Button
-            android:id="@+id/btnRX04TiposObservables"
-            android:text="Observables"
+            android:id="@+id/btnRX05Subject"
+            android:text="Subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/btnRX06Bus"
+            android:text="Bus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/btnRX07Binding"
+            android:text="Binding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/btnRX08BackPressure"
+            android:text="BackPressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/btnRX09HotAndCold"
+            android:text="Hot And Cold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             />

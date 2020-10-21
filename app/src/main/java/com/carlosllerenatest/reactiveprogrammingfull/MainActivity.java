@@ -26,6 +26,21 @@ public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.btnRX04TiposObservables)
     Button btnRX04TiposObservables;
+
+    @BindView(R.id.btnRX05Subject)
+    Button btnRX05TiposObservables;
+
+    @BindView(R.id.btnRX06Bus)
+    Button btnRX06Bus;
+
+    @BindView(R.id.btnRX07Binding)
+    Button btnRX07Binding;
+
+    @BindView(R.id.btnRX08BackPressure)
+    Button btnRX08BackPressure;
+
+    @BindView(R.id.btnRX09HotAndCold)
+    Button btnRX09HotAndCold;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -70,5 +85,40 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(),RX04TiposObservableActivity.class));
             }
         });
+
+        btnRX05TiposObservables.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),RX05SubjectActivity.class));
+            }
+        });
+
+        btnRX06Bus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),RX06BusActivity.class));
+            }
+        });
+
+        btnRX07Binding.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),RX07BindingAcitivity.class));
+            }
+        });
+        btnRX08BackPressure.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),RX08BackPressureActivity.class));
+            }
+        });
+        btnRX09HotAndCold.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),RX09HotAndCold.class));
+            }
+        });
+
+
     }
 }

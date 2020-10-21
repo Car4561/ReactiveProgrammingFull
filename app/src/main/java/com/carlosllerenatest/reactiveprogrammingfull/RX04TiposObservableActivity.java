@@ -88,6 +88,7 @@ public class RX04TiposObservableActivity extends AppCompatActivity {
                 return integer + integer2;
             }
         }).subscribe(singleObserver);
+
     }
 
     private void maybeAndMaybeOberver() {
